@@ -1,6 +1,6 @@
 {
   "name": "exercises-for-programmers",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "private": true,
   "packageManager": "pnpm@11.0.3",
   "pnpm": {
@@ -10,10 +10,17 @@
     ]
   },
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint ."
+    "commit": "cz",
+    "dev": "next dev",
+    "lint": "eslint .",
+    "prepare": "husky",
+    "start": "next start"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   },
   "dependencies": {
     "@types/marked": "^5.0.2",
@@ -27,11 +34,20 @@
     "styled-components": "^6.3.12"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.6.0",
+    "@commitlint/config-conventional": "^19.6.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "commitizen": "^4.3.1",
+    "conventional-changelog-conventionalcommits": "^8.0.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^9",
     "eslint-config-next": "^16.2.1",
+    "husky": "^9.1.7",
+    "semantic-release": "^24.2.0",
     "typescript": "^5"
   }
 }
