@@ -40,6 +40,8 @@ OMDB_API_KEY=your_key_here
 
 Free keys: [openweathermap.org](https://openweathermap.org/api) · [omdbapi.com](https://www.omdbapi.com/)
 
+For committing, this repo uses [Conventional Commits](https://www.conventionalcommits.org/) — run `pnpm commit` for an interactive prompt or see [Commits & releases](#commits--releases) below.
+
 ## Commits & releases
 
 This repo follows [Conventional Commits](https://www.conventionalcommits.org/) and uses [semantic-release](https://semantic-release.gitbook.io/) to publish versions automatically.

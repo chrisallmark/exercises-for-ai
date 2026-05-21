@@ -13,6 +13,7 @@ pnpm dev         # Start development server
 pnpm build       # Production build
 pnpm start       # Start production server
 pnpm lint        # ESLint
+pnpm commit      # Interactive conventional commit prompt (commitizen)
 ```
 
 No test framework is configured.
@@ -79,8 +80,8 @@ CSS is kept as a local file at `src/app/semantic.css` (with fonts/images under `
 ### Package manager
 
 Uses pnpm 11. Key config:
-- `.npmrc`: `strict-peer-dependencies=false` + `auto-install-peers=true` — `semantic-ui-react@3.0.0-beta.2` declares peer deps against React 16–18 but the project runs React 19
 - `package.json` → `pnpm.onlyBuiltDependencies: ["sharp", "unrs-resolver"]` — approves Next.js dependency build scripts under pnpm 11's stricter defaults
+- `semantic-ui-react@3.0.0-beta.2` declares peer deps against React 16–18 but the project runs React 19; pnpm resolves this without a strict peer check
 
 ### Other notes
 
