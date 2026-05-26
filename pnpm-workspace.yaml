@@ -1,3 +1,9 @@
 allowBuilds:
   sharp: true
   unrs-resolver: true
+packages:
+  - .
+peerDependencyRules:
+  allowedVersions:
+    react: "19"
+    react-dom: "19"
