@@ -1,3 +1,9 @@
+## [1.0.2](https://github.com/chrisallmark/exercises-for-ai/compare/v1.0.1...v1.0.2) (2026-05-28)
+
+### Bug Fixes
+
+* update commit-msg ([973182d](https://github.com/chrisallmark/exercises-for-ai/commit/973182dc0907e7ba582ee1d1927919d60c818e9a))
+
 ## [1.0.1](https://github.com/chrisallmark/exercises-for-ai/compare/v1.0.0...v1.0.1) (2026-05-21)
 
 ### Bug Fixes
