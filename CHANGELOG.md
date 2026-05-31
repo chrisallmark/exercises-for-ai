@@ -1,3 +1,9 @@
+## [1.0.3](https://github.com/chrisallmark/exercises-for-ai/compare/v1.0.2...v1.0.3) (2026-05-31)
+
+### Bug Fixes
+
+* remove vercel.json ([753eff2](https://github.com/chrisallmark/exercises-for-ai/commit/753eff2b6e01b3685e2c1604dcc2dc2f9b4f5ba4))
+
 ## [1.0.2](https://github.com/chrisallmark/exercises-for-ai/compare/v1.0.1...v1.0.2) (2026-05-28)
 
 ### Bug Fixes
