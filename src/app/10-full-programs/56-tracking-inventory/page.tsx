@@ -8,6 +8,7 @@ const STORAGE_KEY = "efp-inventory";
 
 type Item = { id: number; name: string; serial: string; value: number };
 
+const EMPTY_ITEMS: Item[] = [];
 let _inventoryListeners: Array<() => void> = [];
 let _inventoryCache: Item[] | null = null;
 
@@ -20,8 +21,8 @@ const inventoryStore = {
     _inventoryListeners.push(listener);
     return () => { _inventoryListeners = _inventoryListeners.filter((l) => l !== listener); };
   },
-  getSnapshot: (): Item[] => _inventoryCache ?? [],
-  getServerSnapshot: (): Item[] => [],
+  getSnapshot: (): Item[] => _inventoryCache ?? EMPTY_ITEMS,
+  getServerSnapshot: (): Item[] => EMPTY_ITEMS,
   set: (items: Item[]) => {
     _inventoryCache = items;
     localStorage.setItem(STORAGE_KEY, JSON.stringify(items));

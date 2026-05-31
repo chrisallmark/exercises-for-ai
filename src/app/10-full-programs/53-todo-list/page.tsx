@@ -8,6 +8,7 @@ const STORAGE_KEY = "efp-todo-list";
 
 type Task = { id: number; text: string };
 
+const EMPTY_TASKS: Task[] = [];
 let _todoListeners: Array<() => void> = [];
 let _todoCache: Task[] | null = null;
 
@@ -20,8 +21,8 @@ const todoStore = {
     _todoListeners.push(listener);
     return () => { _todoListeners = _todoListeners.filter((l) => l !== listener); };
   },
-  getSnapshot: (): Task[] => _todoCache ?? [],
-  getServerSnapshot: (): Task[] => [],
+  getSnapshot: (): Task[] => _todoCache ?? EMPTY_TASKS,
+  getServerSnapshot: (): Task[] => EMPTY_TASKS,
   set: (tasks: Task[]) => {
     _todoCache = tasks;
     localStorage.setItem(STORAGE_KEY, JSON.stringify(tasks));

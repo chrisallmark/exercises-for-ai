@@ -10,6 +10,7 @@ const nextConfig = {
     ],
   },
   reactStrictMode: true,
+  transpilePackages: ["marked"],
 };
 
 export default nextConfig;
