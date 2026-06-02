@@ -1,3 +1,9 @@
+## [1.0.5](https://github.com/chrisallmark/exercises-for-ai/compare/v1.0.4...v1.0.5) (2026-06-02)
+
+### Bug Fixes
+
+* update woodpecker ([5a5b461](https://github.com/chrisallmark/exercises-for-ai/commit/5a5b461ce73093b1d4e223cdd009d0035404a347))
+
 ## [1.0.4](https://github.com/chrisallmark/exercises-for-ai/compare/v1.0.3...v1.0.4) (2026-06-02)
 
 ### Bug Fixes
