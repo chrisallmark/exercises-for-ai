@@ -1,6 +1,8 @@
 when:
   event:
     - tag
+  branch:
+    - main
 steps:
   build-and-push:
     image: woodpeckerci/plugin-docker-buildx:5.1.0-insecure
