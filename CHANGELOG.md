@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/chrisallmark/exercises-for-ai/compare/v1.0.5...v1.1.0) (2026-06-05)
+
+### Features
+
+* update favicon ([c42a8e3](https://github.com/chrisallmark/exercises-for-ai/commit/c42a8e3af2ac17a91130ed9a109f4544599656ad))
+
 ## [1.0.5](https://github.com/chrisallmark/exercises-for-ai/compare/v1.0.4...v1.0.5) (2026-06-02)
 
 ### Bug Fixes
