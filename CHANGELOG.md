@@ -1,3 +1,5 @@
+## [1.1.1](https://github.com/chrisallmark/exercises-for-ai/compare/v1.1.0...v1.1.1) (2026-07-29)
+
 ## [1.1.0](https://github.com/chrisallmark/exercises-for-ai/compare/v1.0.5...v1.1.0) (2026-06-05)
 
 ### Features
